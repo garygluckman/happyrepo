@@ -11,11 +11,11 @@ This is an R Markdown document. Markdown is a simple formatting syntax for autho
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
 ``` r
-x <- rnorm(1000)
+x <- rnorm(1000)+10.0
 head(x)
 ```
 
-    ## [1] -0.9009132 -0.9891018  0.8123826 -0.4574154 -0.2593997 -0.4908902
+    ## [1] 10.040299 12.034420 10.568816  8.355538  9.768671 10.746570
 
 Including Plots
 ---------------
